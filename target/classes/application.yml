@@ -1,0 +1,20 @@
+server:
+  port: 9090
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    password: admin
+    url: jdbc:postgresql://localhost:5432/snipe_crm
+    username: postgres
+  application:
+    name: KPI-MONITERING-TOOL
+
+#kpi:
+ #messages:
+  #contactSaveSucc: Contact Saved Successfully..!
+  #contactSaveFail: Failed To Save Contact..!!
+  #contactUpdateSucc: Contact Updated Successfully..!!
+  #contactUpdateFail: Failed To Update Contact..!!
+  #contactDeleteSucc: Contact Deleted Successfully..!!
+  #contactDeleteFail: Failed To Delete Contact..!!
+  
